@@ -37,12 +37,21 @@
 
 // Create get n
 
+const validator = require('validator')
+
 
 const getNotes = require('./notes.js')
 
 const msg = getNotes()
 
 console.log(msg)
+
+// console.log(validator.isEmail('john@test.com'))
+// console.log(validator.isEmail('test.com'))
+console.log(validator.isURL('https://www.npmjs.com/package/validator'))
+// console.log(validator.isURL('https/.npmjs.com/package/validator'))
+
+
 
 
 

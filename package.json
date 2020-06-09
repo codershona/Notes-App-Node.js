@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/codershona/Notes-App-Node.js/issues"
   },
-  "homepage": "https://github.com/codershona/Notes-App-Node.js#readme"
+  "homepage": "https://github.com/codershona/Notes-App-Node.js#readme",
+  "dependencies": {
+    "validator": "^10.8.0"
+  }
 }

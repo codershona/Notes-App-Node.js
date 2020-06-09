@@ -11,6 +11,8 @@ Notes App Node.js
     - npm -v;
     - npm init;
     - npm install -g;
+    - npm i validator@10.8.0;
+    - node app.js;
     - 
 
   ```
