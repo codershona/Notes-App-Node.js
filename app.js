@@ -50,7 +50,10 @@ console.log(msg)
 // console.log(chalk.green('Success!')
 
 // const greenMsg = chalk.green('Success!')
-const greenMsg = chalk.green.bold('Success!')
+// const greenMsg = chalk.green.bold('Success!')
+
+// const greenMsg = chalk.red.inverse.bold('Error not fixs!')
+const greenMsg = chalk.blue.inverse.bold('Error not fixs!')
 
 console.log(greenMsg)
 
