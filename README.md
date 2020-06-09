@@ -13,6 +13,8 @@ Notes App Node.js
     - npm install -g;
     - npm i validator@10.8.0;
     - node app.js;
+    - npm install;
+    - npm i chalk@2.4.1;
     - 
 
   ```

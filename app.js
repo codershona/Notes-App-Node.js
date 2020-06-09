@@ -37,8 +37,9 @@
 
 // Create get n
 
-const validator = require('validator')
+// const validator = require('validator')
 
+const chalk = require('chalk')
 
 const getNotes = require('./notes.js')
 
@@ -46,9 +47,16 @@ const msg = getNotes()
 
 console.log(msg)
 
+// console.log(chalk.green('Success!')
+
+// const greenMsg = chalk.green('Success!')
+const greenMsg = chalk.green.bold('Success!')
+
+console.log(greenMsg)
+
 // console.log(validator.isEmail('john@test.com'))
 // console.log(validator.isEmail('test.com'))
-console.log(validator.isURL('https://www.npmjs.com/package/validator'))
+// console.log(validator.isURL('https://www.npmjs.com/package/validator'))
 // console.log(validator.isURL('https/.npmjs.com/package/validator'))
 
 
