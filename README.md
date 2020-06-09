@@ -7,6 +7,10 @@ Notes App Node.js
 
   ```
     - Run node app.js ;
-    
+    - node -v;
+    - npm -v;
+    - npm init;
+    - npm install -g;
+    - 
 
   ```
