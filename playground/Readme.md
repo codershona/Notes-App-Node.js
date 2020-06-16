@@ -5,7 +5,7 @@
 
 ```
    - cd ../playground ;
-   -  node 1-json.js ;
+   - node 1-json.js ;
    - 
 
 ```
