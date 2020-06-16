@@ -43,9 +43,9 @@ const chalk = require('chalk')
 
 const getNotes = require('./notes.js')
 
-const msg = getNotes()
+// const msg = getNotes()
 
-console.log(msg)
+// console.log(msg)
 
 // console.log(chalk.green('Success!')
 
@@ -53,14 +53,29 @@ console.log(msg)
 // const greenMsg = chalk.green.bold('Success!')
 
 // const greenMsg = chalk.red.inverse.bold('Error not fixs!')
-const greenMsg = chalk.blue.inverse.bold('Error not fixs!')
+// const greenMsg = chalk.blue.inverse.bold('Error not fixs!')
 
-console.log(greenMsg)
+// console.log(greenMsg)
 
 // console.log(validator.isEmail('john@test.com'))
 // console.log(validator.isEmail('test.com'))
 // console.log(validator.isURL('https://www.npmjs.com/package/validator'))
 // console.log(validator.isURL('https/.npmjs.com/package/validator'))
+
+// console.log(process.argv[2])
+
+const command = process.argv[2]
+
+console.log(process.argv)
+
+if (command === 'add') {
+	console.log('Adding note!')
+}
+ else if (command === 'remove') {
+
+ 	console.log('Removing note!')
+
+ }
 
 
 

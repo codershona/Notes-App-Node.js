@@ -18,7 +18,12 @@ Notes App Node.js
     - npm i nodemon@1.18.5 -g / sudo npm install nodemon@1.18.5 -g; 
     - nodemon -v ;
     - Run nodemon app.js ;
+    - node app.js John ;
+    - node app.js add ;
+    - node app.js remove (you will not get any output) ;
+    - node app.js add --title="This is my title" ;
     - 
+
 
 
   ```
