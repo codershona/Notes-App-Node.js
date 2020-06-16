@@ -22,6 +22,15 @@ Notes App Node.js
     - node app.js add ;
     - node app.js remove (you will not get any output) ;
     - node app.js add --title="This is my title" ;
+    - npm i yargs@12.0.2 ;
+    - node app.js add --title="Things toooo buylist" ;
+    - node app.js --help ;
+    - node app.js --version ;
+    - node app.js --help ;
+    - node app.js add ;
+    - node app.js remove ;
+    - node app.js list ;
+    - node app.js read ;
     - 
 
 
