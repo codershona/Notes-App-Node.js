@@ -31,6 +31,12 @@ Notes App Node.js
     - node app.js remove ;
     - node app.js list ;
     - node app.js read ;
+    - node app.js add --title="Shopping Lists" ;
+    - node app.js add ;
+    - node app.js add --title ;
+    - node app.js add --title="My Title" ;
+    - node app.js add --title="Buy" ;
+    - node app.js add --title="Buy" --body="These are what I need to buy." ;
     - 
 
 
