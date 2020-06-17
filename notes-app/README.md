@@ -40,6 +40,9 @@ Notes App Node.js
      - node app.js add --title="t" --body="b" ;
      - node app.js add --title="List" --body="Sweater, Pants , Frogs" ;
      - node app.js add --title="List 2" --body="Sweater, Pants , Frogs ;
+     - node app.js remove --title="some title" ;
+     - node app.js remove --title="t" ;
+     -  node app.js remove --title="List 2" ;
      - 
 
 
