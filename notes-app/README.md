@@ -43,7 +43,11 @@ Notes App Node.js
      - node app.js remove --title="some title" ;
      - node app.js remove --title="t" ;
      -  node app.js remove --title="List 2" ;
+     - Test the work:  node app.js remove --title="List" ;
+     -  node app.js add --title="t" --body="b"  ;
      - 
+
+
 
 
 
