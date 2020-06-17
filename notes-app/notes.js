@@ -33,6 +33,14 @@ const chalk = require('chalk')
   // if (duplicateNotes.length === 0) {
      // if (!duplicateNote === undefined) {
       // if (duplicateNote === undefined) {
+
+    // console.log(duplicateNote)
+    // console.log(title)
+
+
+    debugger
+
+
         if (!duplicateNote) {
 
   	notes.push({
