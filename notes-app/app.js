@@ -148,7 +148,8 @@ yargs.command({
 	describe: 'List your notes created',
 	// handler: function () {
 		handler() {
-		console.log('Listing out all notes')
+		// console.log('Listing out all notes')
+		notes.listNotes()
 	}
 })
 
