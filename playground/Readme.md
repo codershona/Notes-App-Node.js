@@ -9,6 +9,7 @@
    - nodemon 2-arrow-function.js ;
    - nodemon 3-arrow-challenge.js ;
    - RUN node 4-callbacks.js ;
+   -  node 5-es6-objects.js ;
    - 
 
 ```
