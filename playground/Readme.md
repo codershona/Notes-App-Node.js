@@ -10,6 +10,7 @@
    - nodemon 3-arrow-challenge.js ;
    - RUN node 4-callbacks.js ;
    -  node 5-es6-objects.js ;
+   -  node 6-raw-http.js ;
    - 
 
 ```
